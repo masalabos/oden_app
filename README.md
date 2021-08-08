@@ -17,4 +17,17 @@ git push -u origin main
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+## homepage
+https://masalabos.github.io/oden_app/#/
+
+
+## firebase
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+
+Project Console: https://console.firebase.google.com/project/oden-ab654/overview
+Hosting URL: https://oden-ab654.web.app
+
 
