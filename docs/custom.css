@@ -17,20 +17,8 @@ h2 {
   color: #e91e63;
   text-shadow: 0 0 5px white;
   _padding: 0.3em 0.5em;
-  background: -webkit-repeating-linear-gradient(
-    -45deg,
-    #cce7ff,
-    #cce7ff 3px,
-    #e9f4ff 3px,
-    #e9f4ff 7px
-  );
-  background: repeating-linear-gradient(
-    -45deg,
-    #cce7ff,
-    #cce7ff 3px,
-    #e9f4ff 3px,
-    #e9f4ff 7px
-  );
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
   margin-bottom: 8px;
 }
 
@@ -69,7 +57,7 @@ li {
 } */
 
 p {
-  margin:0;
+  margin: 0;
 }
 
 blockquote p {
@@ -80,11 +68,21 @@ blockquote p {
   border-left: 3px solid #a0aabf;
 }
 
+th,
+td {
+  border: solid 1px;
+  padding: 0.25rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
 body {
   overflow: hidden;
-  _font-family: initial;
+  /* _font-family: initial;
   __font-family: FlopDesignFONT, -apple-system, BlinkMacSystemFont, Roboto,
     ヒラギノ角ゴ Pro W3, 游ゴシック体, 游ゴシック Medium, 游ゴシック, メイリオ,
     Meiryo, Segoe UI, sans-serif;
-  _line-height: initial;
+  _line-height: initial; */
 }
