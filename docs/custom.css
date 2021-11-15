@@ -41,7 +41,7 @@ lu {
   margin-bottom: 8px;
 }
 li {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
