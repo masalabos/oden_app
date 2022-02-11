@@ -1,1 +1,1 @@
-{"name":"OdeN","short_name":"ON","start_url":"/repository-name/","display":"standalone","background_color":"#fff","lang":"ja","scope":"/repository-name/","theme_color":"#3cb371","icons":[{"src":"icon/icon.png","sizes":"225x225","type":"image/png"}]}
+{"name":"OdeN","start_url":"./","display":"standalone","background_color":"#ffffff","lang":"ja","scope":"./","icons":[{"src":"icon/icon.png","sizes":"225x225","type":"image/png","purpose":"any"}]}
