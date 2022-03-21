@@ -79,10 +79,24 @@ table {
 }
 
 body {
-  overflow: hidden;
-  /* _font-family: initial;
-  __font-family: FlopDesignFONT, -apple-system, BlinkMacSystemFont, Roboto,
-    ヒラギノ角ゴ Pro W3, 游ゴシック体, 游ゴシック Medium, 游ゴシック, メイリオ,
-    Meiryo, Segoe UI, sans-serif;
-  _line-height: initial; */
+  /* overflow: hidden; */
+  min-width: 1080px;
 }
+/* @media screen and (max-width: 769px) {
+  body {
+    min-width: initial;
+  }
+} */
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    min-width: initial;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+} */
