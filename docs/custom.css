@@ -82,12 +82,12 @@ body {
   /* overflow: hidden; */
   min-width: 1080px;
 }
-/* @media screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
   body {
     min-width: initial;
   }
-} */
-@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+}
+/* @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
   body {
     min-width: initial;
     -webkit-text-size-adjust: 100%;
@@ -96,7 +96,7 @@ body {
     -o-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
-}
+} */
 
 /* @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 } */
