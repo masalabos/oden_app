@@ -15,6 +15,10 @@ h2 {
   background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
   background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
   margin-bottom: 8px;
+
+  /* position: sticky;
+  top: 0; */
+  /* treeアクティブが移り変わらないくなる */
 }
 
 h3 {
@@ -45,6 +49,26 @@ li {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+/* li:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #0bd;
+  position: relative;
+  left: -15px;
+  top: -3px;
+  display: inline-block;
+} */
+
+/* ol {
+  counter-reset: counter;
+  list-style-type: none;
+}
+li::before {
+  counter-increment: counter;
+  content: counters(counter, '.') ' ';
+} */
 
 /* .v-application {
   line-height: initial;
@@ -58,6 +82,8 @@ li {
 
 p {
   margin: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 blockquote p {
@@ -76,6 +102,13 @@ td {
 
 table {
   border-collapse: collapse;
+}
+
+details {
+  transition: 0.5s;
+}
+details[open] {
+  background: #c3f6ff;
 }
 
 body {
