@@ -1,0 +1,135 @@
+h1 {
+  background: #3f51b5;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 1px #3f51b5;
+  /* _padding: 0.2em 0.5em; */
+  color: white;
+  margin-bottom: 8px;
+  /* scroll-snap-align: start; */
+}
+
+h2 {
+  color: #e91e63;
+  text-shadow: 0 0 5px white;
+  /* _padding: 0.3em 0.5em; */
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  margin-bottom: 8px;
+
+  /* position: sticky;
+  top: 0; */
+  /* treeアクティブが移り変わらないくなる */
+}
+
+h3 {
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+  margin-bottom: 8px;
+}
+
+h4 {
+  position: relative;
+  line-height: 1.4;
+  /* _padding: 0.25em 1em; */
+  display: inline-block;
+  background: #cce7ff;
+  margin-bottom: 8px;
+}
+
+pre {
+  padding: 0.25rem;
+  /* border-radius: 1rem 1rem 1rem 1rem /1rem 1rem 1rem 1rem; */
+  border: 2px dashed green;
+}
+
+lu {
+  margin-bottom: 8px;
+}
+li {
+  /* border-bottom: 1px solid #ccc; */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+/* li:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #0bd;
+  position: relative;
+  left: -15px;
+  top: -3px;
+  display: inline-block;
+} */
+
+/* ol {
+  counter-reset: counter;
+  list-style-type: none;
+}
+li::before {
+  counter-increment: counter;
+  content: counters(counter, '.') ' ';
+} */
+
+/* .v-application {
+  line-height: initial;
+} */
+
+/* .v-treeview-node__root {
+  min-height: initial;
+  padding-right: initial;
+  padding-right: initial;
+} */
+
+p {
+  margin: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+blockquote p {
+  font-size: 1rem;
+  margin-bottom: 0.33999rem;
+  font-style: italic;
+  padding: 0.66001rem 1rem 1rem;
+  border-left: 3px solid #a0aabf;
+}
+
+th,
+td {
+  border: solid 1px;
+  padding: 0.25rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+details {
+  transition: 0.5s;
+}
+details[open] {
+  background: #c3f6ff;
+}
+
+body {
+  /* overflow: hidden; */
+  min-width: 1080px;
+}
+@media screen and (max-width: 769px) {
+  body {
+    min-width: initial;
+  }
+}
+/* @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    min-width: initial;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+} */
+
+/* @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+} */
